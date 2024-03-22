@@ -1,0 +1,26 @@
+{
+  "name": "expeditavoluptatum",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "buildBrowserPublishNpm": "node generateBrowserVersion.js --type 'npm'",
+    "buildBrowserPublishBower": "node generateBrowserVersion.js --type 'bower'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TyraWilderman/expeditavoluptatum.git"
+  },
+  "typings": "./dist/index.d.ts",
+  "dependencies": {
+    "z-schema": "^3.18.4"
+  },
+  "devDependencies": {
+    "typescript": "2.5.2",
+    "rimraf": "*",
+    "json-loader": "^0.5.7",
+    "webpack": "1.4.2"
+  },
+  "author": "AdeliaHartmann",
+  "homepage": "https://github.com/TyraWilderman/expeditavoluptatum.git"
+}
